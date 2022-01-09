@@ -14,3 +14,4 @@ RUN apt-get install -y freeglut3-dev
 RUN pip install pyvirtualdisplay
 RUN pip install dm-reverb
 RUN pip install jupyterlab
+RUN pip install imageio imageio-ffmpeg

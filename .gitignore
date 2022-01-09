@@ -5,4 +5,4 @@
 .keras/
 .local/
 .cache/
-
+*.mp4
