@@ -6,3 +6,5 @@
 .local/
 .cache/
 *.mp4
+_*/
+.DS_Store
