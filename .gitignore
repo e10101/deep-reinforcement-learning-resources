@@ -1,2 +1,7 @@
 .idea/
 .ipynb_checkpoints/
+.ipython/
+.jupyter/
+.keras/
+.local/
+.cache/

@@ -1,0 +1,16 @@
+version: "3.8"
+services:
+  jupyter:
+#    image: jupyter/tensorflow-notebook
+    build: ./
+    environment:
+      - JUPYTER_ENABLE_LAB=yes
+      - GRANT_SUDO=yes
+    volumes:
+      - ./:/tf/drl
+    ports:
+      - "18888:8888"
+    command:
+      - bash
+      - -c
+      - source /etc/bash.bashrc && jupyter lab --notebook-dir=/tf --ip 0.0.0.0 --no-browser --allow-root --NotebookApp.password='sha1:4bded1508ac7:a6b52cadfc342ca8dbe84c6a9d9cf5efcec47d56' # Password: drl
