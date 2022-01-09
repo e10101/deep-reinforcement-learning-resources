@@ -1,6 +1,6 @@
 # Agents in the `tf-agents`
 
-## Agents
+## Agents / Algorithms
 
 | Agent (Algorithm)                                            | Description                                           | TFA Module         | Action Space         | Release | Inventor | Related Agents (or Algorithms)                               | On-policy / Off-policy |
 | ------------------------------------------------------------ | ----------------------------------------------------- | ------------------ | -------------------- | ------- | -------- | ------------------------------------------------------------ | ---------------------- |
@@ -13,6 +13,6 @@
 | [PPOClipAgent](https://www.tensorflow.org/agents/api_docs/python/tf_agents/agents/PPOClipAgent) | PPO with clipped probability ratios                   | ppo                |                      |         |          |                                                              |                        |
 | [PPOKLPenaltyAgent](https://www.tensorflow.org/agents/api_docs/python/tf_agents/agents/PPOKLPenaltyAgent) | PPO with KL penalty loss                              | ppo                |                      |         |          |                                                              |                        |
 | ReinforceAgent                                               | REINFORCE                                             | reinforce          |                      |         |          |                                                              |                        |
-| SacAgent                                                     | Soft Actor Critic                                     | sas                |                      |         |          |                                                              |                        |
+| [SacAgent](https://www.tensorflow.org/agents/api_docs/python/tf_agents/agents/SacAgent) | [Soft Actor Critic](https://arxiv.org/abs/1801.01290) | sas                | Continuous, Discrete | 2018    | Berkeley |                                                              | Off-policy             |
 | TD3 Agent                                                    | Twin Delayed Deep Deterministic policy gradient (TD3) | td3                |                      |         |          |                                                              |                        |
 
