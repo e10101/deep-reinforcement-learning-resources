@@ -1,3 +1,8 @@
 tf-agents
 tensorflow-probability
 pyglet
+pyvirtualdisplay
+dm-reverb
+jupyterlab
+imageio
+imageio-ffmpeg

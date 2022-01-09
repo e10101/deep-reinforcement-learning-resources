@@ -1,0 +1,18 @@
+# Agents in the `tf-agents`
+
+## Agents
+
+| Agent (Algorithm)                                            | Description                                           | TFA Module         | Action Space         | Release | Inventor | Related Agents (or Algorithms)                               | On-policy / Off-policy |
+| ------------------------------------------------------------ | ----------------------------------------------------- | ------------------ | -------------------- | ------- | -------- | ------------------------------------------------------------ | ---------------------- |
+| BehavioralCloningAgent                                       | Behavioral Cloning                                    | behavioral_cloning |                      |         |          |                                                              |                        |
+| CategoricalDqnAgent                                          | Categorical DQN (C51)                                 | categorical_dqn    |                      |         |          |                                                              |                        |
+| CqlSacAgent                                                  | CQL-SAC                                               | cql                |                      |         |          |                                                              |                        |
+| DdpgAgent                                                    | Deep Deterministic Policy Gradient (DDPG)             | ddpg               |                      |         |          |                                                              |                        |
+| [DqnAgent](https://www.tensorflow.org/agents/api_docs/python/tf_agents/agents/DqnAgent) | Deep Q Network                                        | dqn                | Discrete             | 2013    | DeepMind |                                                              | Off-policy             |
+| [PPOAgent](https://www.tensorflow.org/agents/api_docs/python/tf_agents/agents/PPOAgent) | Proximal Policy Optimization                          | ppo                | Discrete, Continuous | 2017    | OpenAI   | ACER (Actor-Critic with Experience Replay), TRPO (Trust Region Policy Optimization) | On-policy              |
+| [PPOClipAgent](https://www.tensorflow.org/agents/api_docs/python/tf_agents/agents/PPOClipAgent) | PPO with clipped probability ratios                   | ppo                |                      |         |          |                                                              |                        |
+| [PPOKLPenaltyAgent](https://www.tensorflow.org/agents/api_docs/python/tf_agents/agents/PPOKLPenaltyAgent) | PPO with KL penalty loss                              | ppo                |                      |         |          |                                                              |                        |
+| ReinforceAgent                                               | REINFORCE                                             | reinforce          |                      |         |          |                                                              |                        |
+| SacAgent                                                     | Soft Actor Critic                                     | sas                |                      |         |          |                                                              |                        |
+| TD3 Agent                                                    | Twin Delayed Deep Deterministic policy gradient (TD3) | td3                |                      |         |          |                                                              |                        |
+
