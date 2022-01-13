@@ -10,6 +10,7 @@ services:
       - ./:/tf/drl
     ports:
       - "18888:8888"
+      - "16006:6006"
     command:
       - bash
       - -c
