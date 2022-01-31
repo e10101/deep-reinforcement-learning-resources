@@ -10,8 +10,18 @@ services:
       - ./:/tf/drl
     ports:
       - "18888:8888"
-      - "16006:6006"
     command:
       - bash
       - -c
       - source /etc/bash.bashrc && jupyter lab --notebook-dir=/tf --ip 0.0.0.0 --no-browser --allow-root --NotebookApp.password='sha1:4bded1508ac7:a6b52cadfc342ca8dbe84c6a9d9cf5efcec47d56' # Password: drl
+
+  tensorboard:
+    build: ./
+    volumes:
+      - ./:/tf/drl
+    ports:
+      - "16006:6006"
+    command:
+      - bash
+      - -c
+      - source /etc/bash.bashrc && tensorboard --logdir /tf/drl/notebooks/data --host 0.0.0.0 # Password: drl
