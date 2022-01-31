@@ -17,10 +17,19 @@ Run following commands to turn on the docker-compose:
 docker-compose up
 ```
 
-Then, visit [http://localhost:18888](http://localhost:18888) 
+### Access
+
+#### Jupyter Lab
+
+Visit [http://localhost:18888](http://localhost:18888) 
 (The local Jupyter Lab) with password `drl`.
 If you want to change the default port (`18888`) or the default password
 (`drl`), please change it in the `docker-compose.yaml` file.
+
+#### Tensorboard
+
+Visit [http://localhost:16006](http://localhost:16006)
+to check training process.
 
 
 ## Notebooks
