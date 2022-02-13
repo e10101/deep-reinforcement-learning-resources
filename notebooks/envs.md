@@ -12,9 +12,10 @@ for env in envs.registry.all():
 
 ## Tested Environments
 
-| Name          | Action Space   | Tested               |
-| ---           | ---            |----------------------|
-| `CartPole-v0` | Discrete       | [DQN](./DQN.ipynb)   |
-| `CartPole-v1` | Discrete       | [DQN](./DQN.ipynb)   |
-| `Acrobot-v1`  | Discrete       | [DQN](./DQN.ipynb)   |
-| `Pendulum-v1` | Continuous     | [DDPG](./DDPG.ipynb) |
+| Name          | Action Space   | Tested                          |
+| ---           | ---            |---------------------------------|
+| `CartPole-v0` | Discrete       | [DQN](./DQN.ipynb)              |
+| `CartPole-v1` | Discrete       | [DQN](./DQN.ipynb)              |
+| `Acrobot-v1`  | Discrete       | [DQN](./DQN.ipynb)              |
+| `Pendulum-v1` | Continuous     | [DDPG](./DDPG.ipynb)            |
+| `Taxi-v3`     | Discrete       | [Taxi-v3](./envs/Taxi-v3.ipynb) |
