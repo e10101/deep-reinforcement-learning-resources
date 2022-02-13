@@ -6,3 +6,4 @@ dm-reverb
 jupyterlab
 imageio
 imageio-ffmpeg
+tqdm
