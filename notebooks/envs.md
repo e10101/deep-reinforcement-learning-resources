@@ -19,3 +19,9 @@ for env in envs.registry.all():
 | `Acrobot-v1`  | Discrete       | [DQN](./DQN.ipynb)              |
 | `Pendulum-v1` | Continuous     | [DDPG](./DDPG.ipynb)            |
 | `Taxi-v3`     | Discrete       | [Taxi-v3](./envs/Taxi-v3.ipynb) |
+
+### Taxi-v3
+
+Refs:
+- https://tiewkh.github.io/blog/deepqlearning-openaitaxi/
+- https://ithelp.ithome.com.tw/articles/10235385
