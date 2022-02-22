@@ -25,3 +25,6 @@ for env in envs.registry.all():
 Refs:
 - https://tiewkh.github.io/blog/deepqlearning-openaitaxi/
 - https://ithelp.ithome.com.tw/articles/10235385
+- https://www.learndatasci.com/tutorials/reinforcement-q-learning-scratch-python-openai-gym/
+- https://medium.com/@anirbans17/reinforcement-learning-for-taxi-v2-edd7c5b76869
+- https://apple.serpentine.ai/education/keras/taxi-q-learning
