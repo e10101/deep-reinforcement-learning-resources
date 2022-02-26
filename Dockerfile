@@ -13,3 +13,10 @@ RUN apt-get install -y fonts-font-awesome
 COPY requirements.txt ./
 # -i https://pypi.tuna.tsinghua.edu.cn/simple
 RUN pip install -r requirements.txt
+
+# SSH
+RUN apt-get update
+RUN apt install -y openssh-server sudo
+RUN useradd -rm -d /home/ubuntu -s /bin/bash -g root -G sudo -u 1000 drl
+RUN mkdir /var/run/sshd
+RUN echo 'drl:drl' | chpasswd
