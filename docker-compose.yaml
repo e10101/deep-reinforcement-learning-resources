@@ -1,5 +1,15 @@
 version: "3.8"
 services:
+  ssh:
+    build: ./
+    ports:
+      - "10022:22"
+    volumes:
+      - ./:/tmp/drl
+    command:
+      - /usr/sbin/sshd
+      - -D
+
   jupyter:
 #    image: jupyter/tensorflow-notebook
     build: ./
