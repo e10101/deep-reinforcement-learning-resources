@@ -35,7 +35,7 @@ Refs:
 - https://medium.com/@kartha.kishan/solving-openai-carracing-v0-using-image-processing-5e1005ee0cb
     - Control car with image processing and PID.
 - https://youtu.be/4Y7zG48uHRo
-    - Youtube, Controlling Self Driving Cars, PID controllers.
+    - 👍 Youtube, Controlling Self Driving Cars, PID controllers.
 - https://youtu.be/iv19T5s-oHc
     - Youtube Presentation, DQN with CNN + FCN, PPO, and FCN with Pre-Processing.
 - https://towardsdatascience.com/applying-a-deep-q-network-for-openais-car-racing-game-a642daf58fc9
