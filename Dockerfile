@@ -3,6 +3,9 @@ FROM tensorflow/tensorflow:2.7.0-jupyter
 
 USER root
 
+# Speed up the building in China region.
+COPY ./ubuntu-cn-sources.list /etc/apt/sources.list
+
 RUN apt-get update && apt-get upgrade --yes
 RUN apt-get install -y python-opengl
 RUN apt-get install -y xvfb
@@ -12,7 +15,7 @@ RUN apt-get install -y fonts-font-awesome
 
 COPY requirements.txt ./
 # -i https://pypi.tuna.tsinghua.edu.cn/simple
-RUN pip install -r requirements.txt
+RUN pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 # SSH
 RUN apt-get update
