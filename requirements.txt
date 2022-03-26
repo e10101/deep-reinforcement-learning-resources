@@ -8,3 +8,4 @@ imageio~=2.14.0
 imageio-ffmpeg~=0.4.5
 tqdm~=4.62.3
 pygame~=2.1.2
+Box2D~=2.3.10
