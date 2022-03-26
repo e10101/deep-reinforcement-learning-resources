@@ -43,3 +43,5 @@ Refs:
     - A poster. PPO is better than DDPG and TD3.
 - https://notanymike.github.io/Solving-CarRacing/
     - Modified the observation space (removed unused elements and change rgb to grayscale) and action spaces (continuous -> discretise)
+- https://keras.io/examples/rl/ddpg_pendulum/
+    - Keras, DDPG for solving the Gym Pendulum env.
