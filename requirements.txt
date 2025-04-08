@@ -3,6 +3,8 @@ tensorflow-probability
 pyglet
 pyvirtualdisplay
 dm-reverb
-jupyterlab
+jupyter_core==4.11.2
+jupyter_server==1.23.5
+jupyterlab==3.5.3
 imageio
 imageio-ffmpeg

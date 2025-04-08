@@ -1,4 +1,3 @@
-#FROM jupyter/tensorflow-notebook:12460db878e3
 FROM tensorflow/tensorflow:2.7.0-jupyter
 
 USER root
