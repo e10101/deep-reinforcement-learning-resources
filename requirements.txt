@@ -1,5 +1,5 @@
 tf-agents==0.12.0
-tensorflow-probability==0.15.0
+tensorflow-probability==0.16.0
 pyglet==1.5.27
 pyvirtualdisplay==3.0
 dm-reverb==0.7.0
